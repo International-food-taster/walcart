@@ -25,14 +25,14 @@ webdriver.find_element(By.ID, 'pass').send_keys('QWEr!@#4')
 webdriver.find_element(By.XPATH, '//*[@id="tab-login"]/div[3]/div[2]/button').click()
 time.sleep(1)
 webdriver.find_element(By.ID, 'product-addtocart-button').click()
-time.sleep(3)
+time.sleep(5)
 webdriver.find_element(By.ID, 'top-cart-btn-checkout').click()
-time.sleep(1)
+time.sleep(5)
 
 webdriver.find_element(By.XPATH, '//*[@id="shipping-method-buttons-container"]/div/button').click()
-time.sleep(2)
+time.sleep(5)
 webdriver.find_element(By.XPATH, '//*[@id="checkout-payment-method-load"]/div/div/div[7]/div[1]/label/img').click()
-time.sleep(4)
+time.sleep(5)
 
 Catch_Text = webdriver.find_element(By.XPATH, '/html/body/div[2]/main/div/div[2]/div/div/div[2]/div[4]/ol/li[3]/div/form/fieldset/div[2]/div/div/div[7]/div[2]/div[4]/div/button/span').text
 
