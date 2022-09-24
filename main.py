@@ -25,7 +25,7 @@ webdriver.find_element(By.ID, 'pass').send_keys('QWEr!@#4')
 webdriver.find_element(By.XPATH, '//*[@id="tab-login"]/div[3]/div[2]/button').click()
 time.sleep(1)
 webdriver.find_element(By.ID, 'product-addtocart-button').click()
-time.sleep(1)
+time.sleep(3)
 webdriver.find_element(By.ID, 'top-cart-btn-checkout').click()
 time.sleep(1)
 
